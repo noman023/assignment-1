@@ -1,4 +1,84 @@
+/* Common Styles */
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* Default Page Layout */
+header,
+main,
+footer {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* Common Colors */
+.color-white {
+  color: #fff;
+}
+
+.color-red {
+  color: #f00;
+}
+
+.color-black {
+  color: #070211;
+}
+
+/* Common Font-Weight Size */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* Overlay over images */
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 16px;
+}
+
+/* Header Styles */
+header {
+  background: url("../resources/Banner\ Image.png") center/cover no-repeat;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.banner-greetins {
+  padding-top: 170px;
+  font-size: 32px;
+}
+
+.banner-title {
+  width: 632px;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-size: 72px;
+  padding-bottom: 170px;
 }
