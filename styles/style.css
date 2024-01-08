@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: white;
   font-family: "Merriweather", serif;
 }
 
@@ -228,6 +229,56 @@ section.midnight-party {
   margin-bottom: 50px;
 }
 
+/* Holydays Sale styles */
+.holydays-typo {
+  /* margin-bottom: 500px; */
+  display: block;
+}
+
+.holydays-subtitle {
+  font-size: 24px;
+}
+
+.holydays-title {
+  font-size: 72px;
+  margin: 15px 0;
+}
+
+.holydays-description {
+  width: 70%;
+  margin: 20px auto 50px;
+  line-height: 1.7;
+}
+
+.holydays-images {
+  margin-top: 500px;
+}
+
+.back-img {
+  position: relative;
+  background: url("../resources/Rectangle\ 2.png") no-repeat bottom;
+  height: 200px;
+  border-radius: 16px 0px 16px 16px;
+}
+
+.girl-img {
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+}
+
+.discount-img {
+  position: absolute;
+  right: 300px;
+  bottom: 270px;
+}
+
+.box-img {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+}
+
 /* Best gifts styles */
 .gift-typo {
   text-align: left;
@@ -288,7 +339,7 @@ input[type="email"] {
   border-radius: 50px;
   border: none;
   font-size: 20px;
-  padding: 15px;
+  padding: 20px;
   z-index: 1;
   left: 0;
 }
@@ -300,7 +351,7 @@ input[type="button"] {
   border-radius: 0px 50px 50px 0;
   border: none;
   font-size: 20px;
-  padding: 15px;
+  padding: 20px;
   z-index: 2;
   right: 0;
   cursor: pointer;
