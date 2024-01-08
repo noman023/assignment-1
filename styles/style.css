@@ -258,3 +258,50 @@ section.midnight-party {
   width: calc(33.33% - 10px);
   margin: 5px;
 }
+
+/* Newsletter styles */
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 210px;
+}
+.newsletter-title {
+  font-size: 48px;
+  margin: 30px 0;
+}
+
+.newsletter-description {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.newsletter .input {
+  width: 650px;
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+
+input[type="email"] {
+  width: 75%;
+  position: relative;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  z-index: 1;
+  left: 0;
+}
+
+input[type="button"] {
+  width: 25%;
+  background-color: #f00;
+  position: absolute;
+  border-radius: 0px 50px 50px 0;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  z-index: 2;
+  right: 0;
+  cursor: pointer;
+}
