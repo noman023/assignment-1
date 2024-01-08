@@ -82,3 +82,25 @@ header {
   font-size: 72px;
   padding-bottom: 170px;
 }
+
+/* main section styles */
+main {
+  text-align: center;
+}
+
+/* 65% OFF styles */
+.section-title {
+  font-size: 88px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section-description {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 48px;
+  padding-bottom: 40px;
+}
