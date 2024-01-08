@@ -11,7 +11,7 @@ body {
 /* Default Page Layout */
 header,
 main,
-footer {
+.footer-content-container {
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -304,4 +304,39 @@ input[type="button"] {
   z-index: 2;
   right: 0;
   cursor: pointer;
+}
+
+/* footer styles */
+footer {
+  background-color: #070211;
+}
+
+.footer-content-container {
+  padding: 80px 0;
+}
+
+.footer-content-container p {
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 50px 0;
+}
+
+.footer-content:last-child {
+  border-bottom: none;
+}
+
+.icons {
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-content:last-child a {
+  text-decoration: none;
+  color: white;
 }
