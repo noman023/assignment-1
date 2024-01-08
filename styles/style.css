@@ -88,6 +88,11 @@ main {
   text-align: center;
 }
 
+.mt-mb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* 65% OFF styles */
 .section-title {
   font-size: 88px;
@@ -103,4 +108,48 @@ main {
 .section-subtitle {
   font-size: 48px;
   padding-bottom: 40px;
+}
+
+/* midnight party styles */
+section.midnight-party {
+  position: relative;
+  background: url("../resources/Vectorrr.png") center/cover no-repeat;
+  border-radius: 16px;
+}
+
+.midnight-content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 2;
+}
+
+.typo {
+  margin: 120px;
+  text-align: left;
+}
+
+.image {
+  margin-top: 30px;
+  margin-right: 120px;
+}
+
+.midnight-title {
+  font-size: 64px;
+}
+
+.midnight-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  padding: 25px 0;
+  line-height: 1.5;
+}
+
+.midnight-party button {
+  background-color: #f00;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px;
+  border: 1px solid #f00;
+  cursor: pointer;
 }
